@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "roboto", sans-serif;
+}
+/* menu bar */
+header {
+    background-color:#1f2937;
+    color:#f9faf8;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    font-size: 24px;
+    color:#f9faf8;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* intro */
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.container1{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.intro {
+    background-color:#1f2937;
+    color:#f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+}
+.clickety-button {
+    cursor:pointer;
+    margin: 10px;
+    padding: 5px;
+    background-color:#3882f6;
+    color:#f9faf8;
+    border: none;
+    border-radius: 5px;
+}
+.mug-image{ 
+    width: 15%;
+    flex-shrink: 0;
+    padding-right: 200px;
+    
+}
+/* main content */
+h2{
+    text-align: center;
+    margin:50px;
+    font-size: 36px;
+}
+
+.container2 {
+    display:flex;
+    margin-bottom: 100px;
+    justify-content:center;
+    
+}
+.example{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom:50px;
+    flex-direction:column;
+    
+    
+}
+.example, .eximg {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 10px;
+    
+   
+}
+.eximg{
+    border: 3px;
+    border-style: solid;
+    border-color:#3882f6;
+}
+/* quote section */
+.quotecontainer {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#e5e7eb;
+    padding: 100px 100px
+    
+}
+.quote{
+    font-size: 26px;
+    color:#1f2937;
+    font-weight: 100;
+    
+}
+.quote, .attribute{
+    
+    
+    margin-left:auto;
+}
+/* call to action */
+.callcontainer {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.calltoaction {
+    background-color:#3882f6;
+    color:#f9faf8;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    padding: 50px ;
+    margin: auto;
+    width: 55%;
+    
+}
+.call-button {
+    cursor: pointer;
+    color:#e5e7eb;
+    background-color:#3882f6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid #e5e7eb;
+    align-self: flex-end;
+    margin-left: 50px;
+}
+footer{
+    background-color:#1f2937;
+    color:#e5e7eb;
+    text-align: left;
+    font-size: 15px;
+    padding: 50px;
+}
